@@ -47,7 +47,7 @@ entity control_module is
 end control_module;
 
 architecture Behavioral of control_module is
-
+--heyaaaa
 type math_states is (WAIT_UPDATE, QUEUE_MATH, EXECUTE_MATH, RX_MATH, SAVE_PARAMS);
 signal state : math_states;
 
