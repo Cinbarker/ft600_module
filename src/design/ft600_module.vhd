@@ -6,7 +6,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use work.my_types_pkg.all;
-
+-- 1234
 entity control_module is
     port ( 
         clk                     : in std_logic;
